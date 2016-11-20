@@ -9,7 +9,7 @@ RUN mkdir -p /bubbleupnpserver && \
     unzip BubbleUPnPServer-distrib.zip && \
     unzip ffmpeg_linux.zip && \
     chmod +x launch.sh && \
-    rm BubbleUPnPServer-distrib.zip
+    rm BubbleUPnPServer-distrib.zip && \
     rm ffmpeg_linux.zip
 
 EXPOSE 58050/tcp 58051/tcp 1900/udp
